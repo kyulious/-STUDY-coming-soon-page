@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap');
+
+*{
+    padding: none;
+    margin: none;
+}
+body{
+    background:url(images/bg-pattern-desktop.svg);
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.left>img{
+    position: absolute;
+    width: 15%;
+    left: 15%;
+    top: 10%;
+}
+
+.left>h1{
+    color: rgb(138, 111, 138);
+    font-weight: lighter;
+    letter-spacing: 16px;
+    font-size: 70px;
+    position:absolute;
+    left: 15%;
+    top:25%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.left>h1>strong{
+    color: rgb(43, 43, 43);
+    font-family: 'Josefin Sans', sans-serif;
+}
+.left>h4{
+    color: grey;
+    font-weight: lighter;
+    width: 470px;
+    font-weight: bolder;
+    position: absolute;
+    left: 15%;
+    top: 55%;
+    font-size: 20px;
+}
+
+.left #err{
+    width: 1%;
+    position: absolute;
+    left: 31%;
+    top: 69.5%;
+    display: none;
+}
+.left #email{
+    position: absolute;
+    left: 15%;
+    top: 68%;
+    width: 20%;
+    height: 5%;
+    border-radius: 30px;
+    border: 1px solid rgb(219, 218, 218);
+    outline: none;
+}
+
+.left #email::placeholder{
+    color: rgb(187, 187, 187);
+    left: 10%;
+    position: relative;
+}
+.left #err1{
+    color: red;
+    position: absolute;
+    top: 74%;
+    left: 16%;
+    font-size: 12px;
+    font-weight: bolder;
+    display: none;
+}
+.left #err2{
+    color: red;
+    position: absolute;
+    top: 74%;
+    left: 16%;
+    font-size: 12px;
+    font-weight: bolder;
+    display: none;
+}
+.left #btn{
+    width: 5%;
+    position: absolute;
+    left: 33%;
+    top: 68%;
+    height: 5.5%;
+    border-radius: 30px;
+    background: linear-gradient( to right, pink, rgb(252, 153, 169) );
+    color: #fff;
+    border: none;
+    font-size: 30px;
+    outline: none;
+}
+
+
+#hero{
+    position: absolute;
+    left: 55%;
+    height: 100vh;
+
+}
